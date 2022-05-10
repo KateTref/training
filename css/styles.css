@@ -1,0 +1,112 @@
+:root {
+    --accent-color: #20484F;
+    --secondary-accent-color: #B8E4DA; 
+    --primary-color: #072125;
+    --white-color: #ffffff; 
+    --secondary-white-color: #DCF2ED; 
+}
+
+body {
+    color: var(--primary-color);
+}
+
+h1, h2, h3, h4, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit
+}
+
+.header {
+    background-color: var(--accent-color);
+}
+.logo {
+    color: var(--white-color);
+}
+.site-nav {
+    color: var(--white-color); 
+}
+
+.auth-sign {
+    color: var(--accent-color);
+    background-color: var(--secondary-accent-color);
+}
+
+.auth-log {
+    color: var(--white-color);
+}
+
+.small-title {
+    color: var(--accent-color);
+}
+.btn {
+    border-radius: 8px;
+}
+.primary-btn {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    
+}
+
+.secondary-btn {
+    color: var(--primary-color);
+    background-color: var(--white-color);
+    border: 1px solid rgba(32, 72, 79, 0.1);  
+}
+
+.partners > h2 {
+    color: var(--accent-color);
+}
+
+.position-costumer {
+    color: var(--accent-color);
+}
+
+.footer {
+    background-color: var(--primary-color);
+}
+
+address {
+    color: var(--secondary-white-color);
+}
+
+.title-nav-footer {
+    color: var(--white-color);
+}
+
+.item-nav-footer {
+    color: var(--secondary-accent-color);
+}
+
+.copyright {
+    color: var(--secondary-accent-color);
+}
+
+/* == ABOUT-US == */
+
+.number {
+    color: var(--accent-color);
+}
+
+.team-position {
+    color: var(--accent-color);
+}
+
+.name-autor {
+    color: var(--accent-color);
+}
+
+.slogan {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+

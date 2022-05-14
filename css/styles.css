@@ -4,10 +4,12 @@
     --primary-color: #072125;
     --white-color: #ffffff; 
     --secondary-white-color: #DCF2ED; 
+    --primary-font: 'Plus Jakarta Sans'; 
 }
 
 body {
     color: var(--primary-color);
+    font-family: var(--primary-font);
 }
 
 h1, h2, h3, h4, p {
@@ -29,13 +31,25 @@ ul, ol {
 .header {
     background-color: var(--accent-color);
 }
+
 .logo {
     color: var(--white-color);
-}
-.site-nav {
-    color: var(--white-color); 
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
 }
 
+.site-nav {
+    color: var(--white-color); 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+.auth-nav {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
 .auth-sign {
     color: var(--accent-color);
     background-color: var(--secondary-accent-color);
@@ -47,14 +61,39 @@ ul, ol {
 
 .small-title {
     color: var(--accent-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
 }
+
+.big-title-hero {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+}
+
+.big-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+.text-hero {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
 .btn {
     border-radius: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
 }
+
 .primary-btn {
     color: var(--white-color);
     background-color: var(--accent-color);
-    
 }
 
 .secondary-btn {
@@ -63,12 +102,67 @@ ul, ol {
     border: 1px solid rgba(32, 72, 79, 0.1);  
 }
 
-.partners > h2 {
+.partners-title {
     color: var(--accent-color);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.partners-span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+}
+
+.primary-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.list-title, .review-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.second-advantage-item, .team-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+}
+
+.review-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
 }
 
 .position-costumer {
     color: var(--accent-color);
+}
+
+.slogan-white {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.slogan-black {
+    text-align: center;
+}
+
+.slogan-text {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
 }
 
 .footer {
@@ -95,18 +189,52 @@ address {
 
 .number {
     color: var(--accent-color);
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
 }
 
 .team-position {
     color: var(--accent-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
 }
 
-.name-autor {
+.comment {
+    font-family: 'Shadows Into Light';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.exception-text {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.name-author {
     color: var(--accent-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
+    text-align: center;
 }
 
-.slogan {
-    color: var(--white-color);
-    background-color: var(--accent-color);
+.position-author {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
 }
+
+.slogan-item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
 

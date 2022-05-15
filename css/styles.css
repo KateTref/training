@@ -148,6 +148,10 @@ ul, ol {
 
 .position-costumer {
     color: var(--accent-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
 }
 
 .slogan-white {
@@ -169,20 +173,25 @@ ul, ol {
     background-color: var(--primary-color);
 }
 
-address {
+address, .item-nav-footer {
     color: var(--secondary-white-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
 }
 
 .title-nav-footer {
     color: var(--white-color);
-}
-
-.item-nav-footer {
-    color: var(--secondary-accent-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 130%;
 }
 
 .copyright {
-    color: var(--secondary-accent-color);
+    color: var(--secondary-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 /* == ABOUT-US == */

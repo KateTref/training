@@ -4,7 +4,7 @@
     --primary-color: #072125;
     --white-color: #ffffff; 
     --secondary-white-color: #DCF2ED; 
-    --primary-font: 'Plus Jakarta Sans'; 
+    --primary-font: 'Plus Jakarta Sans', sans-serif; 
 }
 
 body {
@@ -23,9 +23,23 @@ ul, ol {
     padding-left: 0;
 }
 
+img {
+    display: block;
+}
+
 .link {
     text-decoration: none;
     color: inherit
+}
+
+.list {
+    list-style: none;
+}
+
+.container {
+width: 1170px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .header {
@@ -175,6 +189,7 @@ ul, ol {
 
 address, .item-nav-footer {
     color: var(--secondary-white-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -212,7 +227,7 @@ address, .item-nav-footer {
 }
 
 .comment {
-    font-family: 'Shadows Into Light';
+    font-family: 'Shadows Into Light', cursive;
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;

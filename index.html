@@ -41,18 +41,22 @@
 
     <main>
         <section class="hero">
-            <div class="container">
-                <h1 class="small-title">The new way to work online</h1>
-                <h2 class="big-title-hero">Get the important<br>work done faster</h2>
-                <p class="text-hero">With Quickly, you can get more productive<br>work done in far less time than ever
-                    before.</p>
-                <ul class="list">
-                    <li class="btn primary-btn"><a class="link" href="#">Sign up</a></li>
-                    <li class="btn secondary-btn"><a class="link" href="#">Learn more</a></li>
-                </ul>
-                <img src="./img/photo-hero1.jpg" width="415" alt="portreit of a woman">
-                <img src="./img/hero-disagn1.jpg" width="389">
-                <img src="./img/hero-disagn2.jpg" width="432">
+            <div class="container wrapper-hero">
+                <div class="left-wrapper-hero">
+                    <h1 class="small-title">The new way to work online</h1>
+                    <h2 class="big-title-hero">Get the important<br>work done faster</h2>
+                    <p class="text-hero">With Quickly, you can get more productive<br>work done in far less time than
+                        ever before.</p>
+                    <ul class="list btn-hero">
+                        <li><a class="link btn primary-btn" href="#">Sign up</a></li>
+                        <li><a class="link btn secondary-btn" href="#">Learn more</a></li>
+                    </ul>
+                </div>
+                <div class="card-hero">
+                    <img src="./img/photo-hero1.jpg" width="376" alt="portreit of a woman">
+                    <img class="hero-decoration1" src="./img/hero-disagn1.jpg" width="388">
+                    <img class="hero-decoration2" src="./img/hero-disagn2.jpg" width="432">
+                </div>
             </div>
         </section>
 
@@ -60,17 +64,21 @@
             <div class="container">
                 <h2 class="partners-title">We work with some of the world’s <span class="partners-span">leading</span>
                     companies</h2>
-                <ul class="list">
-                    <li><a href="" aria-label="link Sony"><svg class="partners-icon" width="150" height="32">
+                <ul class="list partners-list">
+                    <li class="partners-item"><a href="" aria-label="link Sony"><svg class="partners-icon" width="150"
+                                height="32">
                                 <use href="./img/icons.svg#icon-sony"></use>
                             </svg></a></li>
-                    <li><a href="" aria-label="link Louis-Vuitton"><svg class="partners-icon" width="203" height="22">
+                    <li class="partners-item"><a href="" aria-label="link Louis-Vuitton"><svg class="partners-icon"
+                                width="203" height="22">
                                 <use href="./img/icons.svg#icon-louis-vuitton"></use>
                             </svg></a></li>
-                    <li><a href="" aria-label="link Slack"><svg class="partners-icon" width="161" height="74">
+                    <li class="partners-item"><a href="" aria-label="link Slack"><svg class="partners-icon" width="161"
+                                height="74">
                                 <use href="./img/icons.svg#icon-slack"></use>
                             </svg></a></li>
-                    <li><a href="" aria-label="link Facebook"><svg class="partners-icon" width="150" height="30">
+                    <li class="partners-item"><a href="" aria-label="link Facebook"><svg class="partners-icon"
+                                width="150" height="30">
                                 <use href="./img/icons.svg#icon-facebook-text"></use>
                             </svg></a></li>
                 </ul>
@@ -78,66 +86,78 @@
         </section>
 
         <section class="advantage">
-            <div class="container">
-                <h2 class="big-title">The source of truth for all of your<br>product decisions</h2>
-                <p class="primary-text">This goes further than what you expected, here you can communicate two really
-                    important product features
-                    with
-                    icons.</p>
-                <ul class="list">
-                    <li>
-                        <svg width="44" height="44">
-                            <use href="./img/icons.svg#icon-question"></use>
-                        </svg>
-                        <h3 class="list-title">Unbeatable support</h3>
-                        <p class="list-text">We have 140 support staff on call 24/7 to support your needs.</p>
-                    </li>
-                    <li><svg width="44" height="44">
-                            <use href="./img/icons.svg#icon-quotes"></use>
-                        </svg>
-                        <h3 class="list-title">Effortless integrations</h3>
-                        <p class="list-text">Integrate with over 500 popular applications with only a few clicks.</p>
-                    </li>
-                    <li><svg width="44" height="44">
-                            <use href="./img/icons.svg#icon-time"></use>
-                        </svg>
-                        <h3 class="list-title">3D rotation features</h3>
-                        <p class="list-text">Flip it, completely around it’s amazing the power of three ds.</p>
-                    </li>
-                    <li><svg width="44" height="44">
-                            <use href="./img/icons.svg#icon-android"></use>
-                        </svg>
-                        <h3 class="list-title">Robot friends are here</h3>
-                        <p class="list-text"> If you feel down you can listen to the Idles with a friendly robot</p>
-                    </li>
-                </ul>
-                <img src="./img/photo-section3.jpg" width="546" alt="portreit of a man">
-                <img src="./img/design1-section3.jpg" width="264">
-                <img src="./img/design2-section3.jpg" width="264">
+            <div class="container advantage-wrapper">
+                <div class="text-advantage-wrapper">
+                    <h2 class="big-title advantage-title">The source of truth for all of your<br>product decisions</h2>
+                    <p class="primary-text advantage-text">This goes further than what you expected, here you can
+                        communicate two really important product features with icons.</p>
+                    <ul class="list advantage-list">
+                        <li class="advantage-list-item">
+                            <svg class="advantage-icon" width="44" height="44">
+                                <use href="./img/icons.svg#icon-question"></use>
+                            </svg>
+                            <h3 class="list-title">Unbeatable support</h3>
+                            <p class="list-text">We have 140 support staff on call 24/7 to support your needs.</p>
+                        </li>
+                        <li class="advantage-list-item">
+                            <svg class="advantage-icon" width="44" height="44">
+                                <use href="./img/icons.svg#icon-quotes"></use>
+                            </svg>
+                            <h3 class="list-title">Effortless integrations</h3>
+                            <p class="list-text">Integrate with over 500 popular applications with only a few clicks.
+                            </p>
+                        </li>
+                        <li class="advantage-list-item">
+                            <svg class="advantage-icon" width="44" height="44">
+                                <use href="./img/icons.svg#icon-time"></use>
+                            </svg>
+                            <h3 class="list-title">3D rotation features</h3>
+                            <p class="list-text">Flip it, completely around it’s amazing the power of three ds.</p>
+                        </li>
+                        <li class="advantage-list-item">
+                            <svg class="advantage-icon" width="44" height="44">
+                                <use href="./img/icons.svg#icon-android"></use>
+                            </svg>
+                            <h3 class="list-title">Robot friends are here</h3>
+                            <p class="list-text"> If you feel down you can listen to the Idles with a friendly robot</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="advantage-card">
+                    <img src="./img/photo-section3.jpg" width="536" alt="portreit of a man">
+                    <img class="advantage-decor1" src="./img/design1-section3.jpg" width="264">
+                    <img class="advantage-decor2" src="./img/design2-section3.jpg" width="264">
+                </div>
             </div>
         </section>
         <section class="second-advantage">
             <div class="container">
-                <h2 class="big-title">How Quickly helps you get more done</h2>
-                <ul class="list">
+                <h2 class="big-title second-advantage-title">How Quickly helps you get more done</h2>
+                <ul class="list second-advantage-wrapper">
                     <li>
-                        <img src="./img/bg1.jpg" width="356">
-                        <img src="./img/design1-section4.jpg" width="222">
+                        <div class="bg-img">
+                            <img src="./img/bg1.jpg" width="356">
+                            <img class="content-img" src="./img/design1-section4.jpg" width="222">
+                        </div>
                         <h3 class="second-advantage-item">Quick Project
                             Creation</h3>
                         <p class="list-text">Your new projects are simply a click away
                             with our intuitive creation flow</p>
                     </li>
                     <li>
-                        <img src="./img/bg2.jpg" width="344">
-                        <img src="./img/design2-section4.jpg" width="365">
+                        <div class="bg-img">
+                            <img src="./img/bg2.jpg" width="344">
+                            <img class="content-img" src="./img/design2-section4.jpg" width="365">
+                        </div>
                         <h3 class="second-advantage-item">Effortless Collaboration</h3>
                         <p class="list-text">Need to assign a designer to your new
                             project, that’s easy with quickly</p>
                     </li>
                     <li>
-                        <img src="./img/bg3.jpg" width="346">
-                        <img src="./img/design3-section4.jpg" width="212">
+                        <div class="bg-img">
+                            <img class="bg-img" src="./img/bg3.jpg" width="346">
+                            <img class="content-img" src="./img/design3-section4.jpg" width="212">
+                        </div>
                         <h3 class="second-advantage-item">Advanced Tracking</h3>
                         <p class="list-text">Track project progress with swim lanes,
                             road maps and other tools</p>

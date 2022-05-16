@@ -97,7 +97,12 @@ margin-right: 32px;
     color: var(--white-color);
 }
 
+.hero {
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
 .small-title {
+    margin-bottom: 26px;
     color: var(--accent-color);
     font-weight: 700;
     font-size: 18px;
@@ -105,21 +110,16 @@ margin-right: 32px;
 }
 
 .big-title-hero {
+    margin-bottom: 32px;
     font-weight: 700;
     font-size: 64px;
     line-height: 120%;
 }
 
-.big-title {
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 125%;
-}
-
-.text-hero {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 150%;
+.wrapper-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .btn {
@@ -137,7 +137,51 @@ margin-right: 32px;
 .secondary-btn {
     color: var(--primary-color);
     background-color: var(--white-color);
-    border: 1px solid rgba(32, 72, 79, 0.1);  
+    border: 1px solid rgba(32, 72, 79, 0.1);
+}
+
+.btn-hero {
+    display: flex;
+}
+
+.btn-hero .primary-btn {
+    margin-right: 20px;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 16px 36px;
+}
+
+.card-hero {
+    position: relative;
+}
+
+.hero-decoration1 {
+    position: absolute;
+    left: 100px;
+    top: 2px;
+}
+.hero-decoration2 {
+    position: absolute;
+    right: 36px;
+    top: 306px;
+}
+.big-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 125%;
+}
+
+.text-hero {
+    margin-bottom: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.partners {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .partners-title {
@@ -145,6 +189,8 @@ margin-right: 32px;
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .partners-span {
@@ -153,16 +199,73 @@ margin-right: 32px;
     line-height: 125%;
 }
 
+.partners-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: -88px;
+    margin-top: -20px;
+    margin-bottom: ;
+}
+
+.partners-item {
+    flex-basis: calc((100% - 4*88) / 4);
+    margin-left: 88px;
+    margin-top: 20px;
+}
+
+.advantage {
+padding-top: 118px;
+padding-bottom: 100px;
+}
+    
+.advantage-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-advantage-wrapper {
+    max-width: 560px;
+}
+.advantage-title {
+    margin-bottom: 20px;
+}
+
+.advantage-text {
+    margin-bottom: 27px;
+}
 .primary-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
 }
 
+.advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -44px;
+    margin-top: -28px;
+}
+
+.advantage-list-item {
+    max-width: 250px;
+    margin-left: 44px;
+    margin-top: 28px;
+    flex-basis: calc((100% - 4*44) / 4);
+}
+
+.advantage-icon {
+    margin-bottom: 20px;
+}
+
+
 .list-title, .review-name {
     font-weight: 700;
     font-size: 18px;
     line-height: 130%;
+    margin-bottom: 12px;
 }
 
 .list-text {
@@ -171,6 +274,45 @@ margin-right: 32px;
     line-height: 150%;
 }
 
+.advantage-card {
+    position: relative;
+}
+
+.advantage-decor1 {
+    position: absolute;
+    top: 60px;
+    left: 320px;
+}
+
+.advantage-decor2 {
+    position: absolute;
+    top: 376px;
+    left: 18px;
+}
+
+.second-advantage {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.second-advantage-title {
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.bg-img {
+    position: relative;
+}
+.content-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.second-advantage-wrapper {
+    display: flex;
+}
 .second-advantage-item, .team-name {
     font-weight: 700;
     font-size: 24px;

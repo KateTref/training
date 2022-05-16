@@ -36,16 +36,27 @@ img {
     list-style: none;
 }
 
+.container-header {
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .container {
-width: 1170px;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
 }
 
 .header {
+    padding: 17px 40px;
     background-color: var(--accent-color);
 }
-
+.nav-container {
+    display: flex;
+    align-items: center;
+}
 .logo {
     color: var(--white-color);
     font-weight: 700;
@@ -54,22 +65,35 @@ margin-right: auto;
 }
 
 .site-nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: 316px;
     color: var(--white-color); 
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
 }
+.site-nav-item:not(:last-child) {
+margin-right: 32px;
+}
 .auth-nav {
+    display: flex;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
 }
 .auth-sign {
+    min-width: 82px;
+    margin-right: 12px;
+    padding: 10px 16px;
     color: var(--accent-color);
     background-color: var(--secondary-accent-color);
 }
 
 .auth-log {
+    min-width: 72px;
+    margin-right: 12px;
+    padding: 10px 16px;
     color: var(--white-color);
 }
 

@@ -42,11 +42,11 @@ img {
     padding-right: 15px;
 }
 .container {
-width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
-margin-left: auto;
-margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
@@ -101,6 +101,7 @@ margin-right: 32px;
     padding-top: 80px;
     padding-bottom: 130px;
 }
+
 .small-title {
     margin-bottom: 26px;
     color: var(--accent-color);
@@ -302,6 +303,7 @@ padding-bottom: 100px;
 
 .bg-img {
     position: relative;
+    overflow: hidden;
 }
 .content-img {
     position: absolute;
@@ -312,6 +314,7 @@ padding-bottom: 100px;
 
 .second-advantage-wrapper {
     display: flex;
+    justify-content: space-between;
 }
 .second-advantage-item, .team-name {
     font-weight: 700;
@@ -320,18 +323,91 @@ padding-bottom: 100px;
     text-align: center;
 }
 
+.card1 {
+    margin-bottom: 26px;
+}
+
+.card2 {
+    margin-bottom: 40px;
+}
+
+.card3 {
+    margin-bottom: 18px;
+}
+
+.card-caption {
+    max-width: 306px;
+    text-align: center;
+}
+
+.third-advantage {
+    padding-top: 76px;
+    padding-bottom: 124px;
+}
+
+.third-advantage-title {
+    margin-bottom: 12px;
+}
+
+.third-advantage-text {
+    margin-bottom: 58px;
+}
+
+.third-advantage-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-advantage-icon {
+    margin-bottom: 32px;
+}
+
+.third-advantage-item {
+    max-width: 266px;
+}
+
+.reviewes {
+    padding-top: 70px;
+    padding-bottom: 104px;
+} 
+
+.flex-group1-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+
+.review-btn {
+    align-self: flex-end;
+}
+ .review-title {
+     margin-bottom: 16px;
+ }
 .review-text {
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
+    margin-bottom: 86px;
 }
 
+.review-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-list-item {
+    max-width: 386px;
+    padding: 36px 50px;
+}
+
+.review-decoration {
+    margin-bottom: 36px;
+}
 .position-costumer {
     color: var(--accent-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
-    text-align: center;
 }
 
 .slogan-white {
@@ -341,6 +417,12 @@ padding-bottom: 100px;
 
 .slogan-black {
     text-align: center;
+    padding-top: 68px;
+    padding-bottom: 70px;
+}
+
+.slogan-black-title {
+    margin-bottom: 28px;
 }
 
 .slogan-text {
@@ -349,8 +431,32 @@ padding-bottom: 100px;
     line-height: 120%;
 }
 
+.slogan-black-text {
+    margin-bottom: 60px;
+}
+
+
 .footer {
     background-color: var(--primary-color);
+    padding-top: 68px;
+    padding-bottom: 16px;
+}
+
+.footer-wrapper {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.footer-block1 {
+    margin-right: 400px;
+}
+
+.footer-block2 {
+    display: flex;
+}
+
+.logo-footer {
+    margin-bottom: 40px;
 }
 
 address, .item-nav-footer {
@@ -360,19 +466,43 @@ address, .item-nav-footer {
     font-size: 16px;
     line-height: 150%;
 }
+ 
+.text-address:not(:last-child) {
+    margin-bottom: 24px;
+}
 
 .title-nav-footer {
     color: var(--white-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 130%;
+    margin-bottom: 24px;
+}
+
+.item-nav-footer:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.footer-nav-item:not(:last-child) {
+    margin-right: 76px;
+}
+
+hr {
+border: none;
+background-color: var(--secondary-accent-color);
+color: var(--secondary-accent-color);
+height: 1px;
+opacity: 0.2;
+margin-bottom: 16px;
 }
 
 .copyright {
+    display: block; 
     color: var(--secondary-white-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 150%;
+    text-align: center;
 }
 
 /* == ABOUT-US == */

@@ -488,12 +488,12 @@ address, .item-nav-footer {
 }
 
 hr {
-border: none;
-background-color: var(--secondary-accent-color);
-color: var(--secondary-accent-color);
-height: 1px;
-opacity: 0.2;
-margin-bottom: 16px;
+    border: none;
+    background-color: var(--secondary-accent-color);
+    color: var(--secondary-accent-color);
+    height: 1px;
+    opacity: 0.2;
+    margin-bottom: 16px;
 }
 
 .copyright {
@@ -507,13 +507,96 @@ margin-bottom: 16px;
 
 /* == ABOUT-US == */
 
+.hero-about {
+    padding-top: 60px;
+    padding-bottom: 26px;
+}
+
+.title-hero-about {
+    margin-bottom: 36px;
+}
+
+.hero-about-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-about-left {
+    max-width: 692px;
+}
+
+.numbers {
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+
+.title-numbers {
+    margin-bottom: 26px;
+}
+ 
+.text-numbers {
+    margin-bottom: 90px;
+}
+
+.numbers-wrapper-left {
+    max-width: 528px;
+    margin-right: 116px;
+}
+
+.numbers-wrapper {
+    display: flex;
+}
+
+.list-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin-left: -80px;
+    margin-top: -60px;
+    flex-basis: calc((100% - 2*80) / 2);
+}
+.list-numbers-item {
+    margin-left: 80px;
+    margin-top: 60px;
+}
 .number {
     color: var(--accent-color);
     font-weight: 700;
     font-size: 64px;
     line-height: 120%;
+    margin-bottom: 32px;
 }
 
+.story {
+    padding-top: 86px;
+    padding-bottom: 86px;
+}
+
+.story-title {
+    margin-bottom: 28px;
+}
+
+.story-wrapper {
+    display: flex;
+}
+
+.story-text:not(:last-child) {
+margin-bottom: 20px;
+}
+
+.story-wrapper-left {
+    margin-right: 38px;
+    max-width: 470px;
+}
+
+.story-wrapper-right {
+    max-width: 646px;
+}
+
+.photo {
+    
+}
 .team-position {
     color: var(--accent-color);
     font-weight: 400;

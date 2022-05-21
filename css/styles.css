@@ -637,6 +637,7 @@ margin-bottom: 20px;
     margin-left: -76px;
     margin-top: -40px;
     margin-bottom: 60px;
+    max-width: 900px;
     flex-basis: calc((100% - 3*76) / 3);
 }
 

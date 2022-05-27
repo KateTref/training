@@ -553,12 +553,11 @@ hr {
     flex-wrap: wrap;
     margin-left: -80px;
     margin-top: -60px;
-    flex-basis: calc((100% - 2*80) / 2);
 }
 .list-numbers-item {
     margin-left: 80px;
     margin-top: 60px;
-    max-width: 180px;
+    flex-basis: calc((100% - 160px) / 2);
 }
 .number {
     color: var(--accent-color);
@@ -626,6 +625,10 @@ margin-bottom: 20px;
     text-align: center;
 }
 
+.container-team {
+    padding-left: 200px;
+    padding-right: 200px;
+}
 .team-title {
     margin-bottom: 68px;
 }
@@ -637,17 +640,19 @@ margin-bottom: 20px;
     margin-left: -76px;
     margin-top: -40px;
     margin-bottom: 60px;
-    max-width: 900px;
-    flex-basis: calc((100% - 3*76) / 3);
 }
 
 .team-item {
     margin-left: 76px;
     margin-top: 40px;
+    flex-basis: 224px;
 }
 
 .team-img {
     margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .team-name {
@@ -677,9 +682,13 @@ margin-bottom: 20px;
 }
 
 .exceptions {
-    padding-top: 90px;
-    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-bottom: 90px;
     text-align: center;
+}
+
+.quotes-picture {
+    margin-bottom: 48px;
 }
 
 .exception-text {
@@ -687,6 +696,7 @@ margin-bottom: 20px;
     font-size: 50px;
     line-height: 120%;
     text-align: center;
+    margin-bottom: 66px;
 }
 
 .name-author {
@@ -695,6 +705,17 @@ margin-bottom: 20px;
     font-size: 18px;
     line-height: 130%;
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.author-text {
+    margin-left: 20px;
 }
 
 .position-author {
@@ -704,7 +725,42 @@ margin-bottom: 20px;
     text-align: center;
 }
 
+.slogan-white {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.text-btn-wrapper>.btn {
+    align-self: flex-end;
+}
+
+.slogan-white-text {
+    margin-right: 80px;
+}
+
 .slogan-item {
+    display: flex;
+}
+
+.slogan-list {
+    display: flex;
+}
+
+.slogan-item:not(:last-child) {
+    margin-right: 42px;
+}
+
+.slogan-img {
+    margin-right: 16px;
+}
+
+.slogan-item-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;

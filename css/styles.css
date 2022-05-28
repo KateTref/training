@@ -64,6 +64,13 @@ img {
     line-height: 125%;
 }
 
+.logo:hover,
+.logo:focus, 
+.nav-link:hover,
+.nav-link:focus{
+    color: var(--secondary-accent-color);
+}
+
 .site-nav {
     display: flex;
     margin-left: auto;
@@ -73,9 +80,11 @@ img {
     font-size: 16px;
     line-height: 150%;
 }
+
 .site-nav-item:not(:last-child) {
 margin-right: 32px;
 }
+
 .auth-nav {
     display: flex;
     font-weight: 400;
@@ -95,6 +104,18 @@ margin-right: 32px;
     margin-right: 12px;
     padding: 10px 16px;
     color: var(--white-color);
+}
+
+.auth-sign:hover,
+.auth-sign:focus {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.auth-log:hover,
+.auth-log:focus {
+    background-color: var(--secondary-accent-color);
+    color: var(--accent-color);
 }
 
 .hero {
@@ -130,12 +151,16 @@ margin-right: 32px;
     line-height: 150%;
 }
 
-.primary-btn {
+.primary-btn,
+.secondary-btn:hover,
+.secondary-btn:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
 
-.secondary-btn {
+.secondary-btn,
+.primary-btn:hover,
+.primary-btn:focus {
     color: var(--primary-color);
     background-color: var(--white-color);
     border: 1px solid rgba(32, 72, 79, 0.1);
@@ -207,7 +232,6 @@ margin-right: 32px;
     align-items: center;
     margin-left: -88px;
     margin-top: -20px;
-    margin-bottom: ;
 }
 
 .partners-item {
@@ -216,6 +240,9 @@ margin-right: 32px;
     margin-top: 20px;
 }
 
+.partners-item:hover {
+    background-color: var(--secondary-accent-color);
+}
 .advantage {
 padding-top: 118px;
 padding-bottom: 100px;
@@ -467,6 +494,13 @@ address, .item-nav-footer {
     line-height: 150%;
 }
  
+.adress-link:hover,
+.address-link:focus,
+.link-nav-footer:hover,
+.link-nav-footer:focus {
+    color: var(--accent-color);
+}
+
 .text-address:not(:last-child) {
     margin-bottom: 24px;
 }

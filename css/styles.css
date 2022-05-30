@@ -9,6 +9,7 @@
 
 body {
     color: var(--primary-color);
+    background-color: var(--secondary-accent-color);
     font-family: var(--primary-font);
 }
 
@@ -238,11 +239,18 @@ margin-right: 32px;
     flex-basis: calc((100% - 4*88) / 4);
     margin-left: 88px;
     margin-top: 20px;
+    fill: var(--accent-color);
 }
 
-.partners-item:hover {
-    background-color: var(--secondary-accent-color);
+.partners-icon {
+    fill: var(--accent-color);
 }
+
+.partners-link:hover .partners-icon,
+.partners-link:focus .partners-icon {
+    fill: var(--primary-color);
+}
+
 .advantage {
 padding-top: 118px;
 padding-bottom: 100px;

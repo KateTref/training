@@ -51,6 +51,9 @@ img {
 }
 
 .header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
     padding: 17px 40px;
     background-color: var(--accent-color);
 }
@@ -119,12 +122,12 @@ margin-right: 32px;
 }
 
 .hero {
-    padding-top: 80px;
+    padding-top: 162px;
     padding-bottom: 130px;
     background-color: rgb(225, 234, 234);
     background-image: url(../img/bg-img-hero.png);
     background-repeat: no-repeat;
-     background-position: top 180px left 398px;
+     background-position: top 262px left 398px;
 }
 
 .small-title {
@@ -584,12 +587,12 @@ hr {
 }
 
 .hero-about {
-    padding-top: 60px;
+    padding-top: 142px;
     padding-bottom: 26px;
     background-color: var(--white-color);
     background-image: url(../img/bg-image-hero-about.png);
     background-repeat: no-repeat;
-    background-position: left 580px top 150px;
+    background-position: left 580px top 232px;
     border-bottom: 4px solid rgba(225, 234, 234, 1);
 }
 

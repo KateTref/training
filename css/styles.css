@@ -4,7 +4,7 @@
     --primary-color: #072125;
     --white-color: #ffffff; 
     --secondary-white-color: #DCF2ED; 
-    --primary-bg-color: #FAFAFA;
+    --primary-bg-color: rgba(225, 234, 234,0.5);
     --primary-font: 'Plus Jakarta Sans', sans-serif; 
 }
 
@@ -121,7 +121,7 @@ margin-right: 32px;
 .hero {
     padding-top: 80px;
     padding-bottom: 130px;
-    background-color: var(--primary-bg-color);
+    background-color: rgb(225, 234, 234);
     background-image: url(../img/bg-img-hero.png);
     background-repeat: no-repeat;
      background-position: top 180px left 398px;
@@ -168,7 +168,7 @@ box-shadow: 0px 0px 2px 2px rgba(32, 72, 79, 0.6);
 
 .secondary-btn {
     color: var(--primary-color);
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: var(--secondary-accent-color);
     border: 1px solid rgba(32, 72, 79, 0.1);
 }
 
@@ -224,9 +224,8 @@ box-shadow: 0px 0px 2px 2px rgba(32, 72, 79, 0.6);
     box-shadow: 0px 0px 14px 14px rgba(184, 228, 218, 1);
 }
 .partners {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    background-color: var(--primary-bg-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .partners-title {
@@ -282,10 +281,14 @@ background-color: var(--primary-bg-color);
 }
 
 .text-advantage-wrapper {
-    max-width: 560px;
+    max-width: fit-content;
+    margin-right: 74px;
 }
 .advantage-title {
     margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 125%;
 }
 
 .advantage-text {
@@ -305,7 +308,7 @@ background-color: var(--primary-bg-color);
 }
 
 .advantage-list-item {
-    max-width: 250px;
+    max-width: calc((100% - 45px*2) /2 );
     margin-left: 44px;
     margin-top: 28px;
     flex-basis: calc((100% - 4*44) / 4);
@@ -348,7 +351,7 @@ background-color: var(--primary-bg-color);
 .second-advantage {
     padding-top: 100px;
     padding-bottom: 100px;
-    background-color: var(--white-color);
+    background-color: var(--primary-bg-color);
 }
 
 .second-advantage-title {
@@ -583,6 +586,11 @@ hr {
 .hero-about {
     padding-top: 60px;
     padding-bottom: 26px;
+    background-color: var(--white-color);
+    background-image: url(../img/bg-image-hero-about.png);
+    background-repeat: no-repeat;
+    background-position: left 580px top 150px;
+    border-bottom: 4px solid rgba(225, 234, 234, 1);
 }
 
 .title-hero-about {
@@ -602,6 +610,7 @@ hr {
 .numbers {
     padding-top: 76px;
     padding-bottom: 76px;
+    background-color: var(--primary-bg-color);
 }
 
 .title-numbers {
@@ -643,6 +652,7 @@ hr {
 .story {
     padding-top: 86px;
     padding-bottom: 86px;
+    background-color: var(--primary-bg-color);
 }
 
 .story-title {
@@ -696,6 +706,7 @@ margin-bottom: 20px;
     padding-top: 94px;
     padding-bottom: 78px;
     text-align: center;
+    background-color: var(--primary-bg-color);
 }
 
 .container-team {
@@ -709,6 +720,7 @@ margin-bottom: 20px;
 .team-list {
     display: flex;
     justify-content: center;
+    max-width: 1200px;
     flex-wrap: wrap;
     margin-left: -76px;
     margin-top: -40px;
@@ -783,6 +795,7 @@ margin-bottom: 20px;
     padding-top: 70px;
     padding-bottom: 90px;
     text-align: center;
+    background-color: var(--primary-bg-color);
 }
 
 .quotes-picture {
@@ -827,6 +840,10 @@ margin-bottom: 20px;
 .slogan-white {
     padding-top: 100px;
     padding-bottom: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-image: url(../img/decoration-slogan-white.png);
+    background-repeat: no-repeat;
+    background-position: top right;
 }
 
 .text-btn-wrapper {

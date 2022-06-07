@@ -66,8 +66,12 @@ img {
     font-weight: 700;
     font-size: 24px;
     line-height: 125%;
+    transition: text-shadow 250ms linear;
 }
 
+.nav-link {
+    transition: text-shadow 250ms linear;
+}
 .logo:hover,
 .logo:focus, 
 .nav-link:hover,
@@ -101,6 +105,7 @@ margin-right: 32px;
     padding: 10px 16px;
     color: var(--accent-color);
     background-color: var(--secondary-accent-color);
+    transition: transform 150ms linear;
 }
 
 .auth-log {
@@ -112,8 +117,9 @@ margin-right: 32px;
 
 .auth-sign:hover,
 .auth-sign:focus {
-    box-shadow: 0px 0px 1px 2px rgba(184, 228, 218, 0.6);
-    font-weight: 700;
+    transform: scale(1.04);
+    /* box-shadow: 0px 0px 1px 2px rgba(184, 228, 218, 0.6); */
+    /* font-weight: 700; */
 }
 
 .auth-log:hover,
@@ -127,7 +133,7 @@ margin-right: 32px;
     background-color: rgb(225, 234, 234);
     background-image: url(../img/bg-img-hero.png);
     background-repeat: no-repeat;
-     background-position: top 262px left 398px;
+    background-position: top 246px left 398px;
 }
 
 .small-title {
@@ -156,6 +162,11 @@ margin-right: 32px;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
+    display: inline-block;
+    transform: scale(1);
+    transition: transform 250ms linear;
+    /* transition: box-shadow 250ms linear,  */
+    /* font-weight 250ms linear; */
 }
 
 .primary-btn {
@@ -165,8 +176,9 @@ margin-right: 32px;
 
 .primary-btn:hover,
 .primary-btn:focus {
-box-shadow: 0px 0px 2px 2px rgba(32, 72, 79, 0.6);
-    font-weight: 700;
+    transform: scale(1.05);
+    /* box-shadow: 0px 0px 2px 2px rgba(32, 72, 79, 0.6); */
+    /* font-weight: 700; */
 }
 
 .secondary-btn {
@@ -177,8 +189,9 @@ box-shadow: 0px 0px 2px 2px rgba(32, 72, 79, 0.6);
 
 .secondary-btn:hover,
 .secondary-btn:focus {
-    box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.6);
-    font-weight: 700;
+    transform: scale(1.05);
+    /* box-shadow: 0px 0px 2px 2px rgba(255, 255, 255, 0.6); */
+    /* font-weight: 700; */
 }
 
 .btn-hero {
@@ -264,6 +277,7 @@ box-shadow: 0px 0px 2px 2px rgba(32, 72, 79, 0.6);
 
 .partners-icon {
     fill: var(--accent-color);
+    transition: fill 250ms linear;
 }
 
 .partners-link:hover .partners-icon,
@@ -502,7 +516,6 @@ background-color: var(--primary-bg-color);
     margin-bottom: 60px;
 }
 
-
 .footer {
     background-color: var(--primary-color);
     padding-top: 68px;
@@ -534,7 +547,11 @@ address, .item-nav-footer {
     line-height: 150%;
 }
  
-.adress-link:hover,
+.address-link,
+.link-nav-footer {
+    transition: text-shadow 250ms linear;
+}
+.address-link:hover,
 .address-link:focus,
 .link-nav-footer:hover,
 .link-nav-footer:focus {
@@ -713,6 +730,7 @@ margin-bottom: 20px;
 }
 
 .container-team {
+    position: relative;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -771,6 +789,9 @@ margin-bottom: 20px;
     height: 48px;
     border-radius: 50%;
     border: 1px double var(--primary-color);
+    transition: background-color 250ms linear,
+                box-shadow 250ms linear,
+                border 250ms linear;
 }
 
 .list-social-item:hover {
@@ -781,6 +802,7 @@ margin-bottom: 20px;
 
 .team-icon {
     fill: var(--primary-color);
+    transition: fill 250ms linear;
 }
 
 .team-icon:hover {
@@ -788,12 +810,21 @@ margin-bottom: 20px;
 }
 
 .comment {
+    position: absolute;
+    right: 150px;
+    bottom: 180px;
+    max-width: 120px;
     font-family: 'Shadows Into Light', cursive;
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
 }
 
+.team-decoration {
+    position:absolute;
+    right: 230px;
+    bottom: 204px;
+}
 .exceptions {
     padding-top: 70px;
     padding-bottom: 90px;
